@@ -1,0 +1,41 @@
+!SESSION 2026-04-24 14:23:03.903 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\ngoqu\SourceTree-Git\Embedded C\My_workspace\Embedded C course\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-24 14:23:08.571
+!MESSAGE Log4j2 initialized with config file C:\Users\ngoqu\SourceTree-Git\Embedded C\My_workspace\Embedded C course\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-24 14:23:10.974
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-24 14:23:11.549
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-24 14:23:11.550
+!MESSAGE port: 
+!SESSION 2026-04-24 14:44:34.493 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\ngoqu\SourceTree-Git\Embedded C\My_workspace\Embedded C course\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-24 14:44:38.014
+!MESSAGE Log4j2 initialized with config file C:\Users\ngoqu\SourceTree-Git\Embedded C\My_workspace\Embedded C course\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-24 14:44:41.004
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-24 14:44:41.514
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-24 14:44:41.514
+!MESSAGE port: 
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-24 15:08:56.298
+!MESSAGE Indexed '000TestProject' (3 sources, 53 headers) in 0.664 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
