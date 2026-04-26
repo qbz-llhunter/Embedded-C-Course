@@ -25,5 +25,5 @@
 int main(void)
 {
     /* Loop forever */
-	for(;;);
+	for(uint8_t i = 1;i <= 1000000; ++i);
 }

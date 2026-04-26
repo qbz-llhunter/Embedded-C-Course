@@ -59,8 +59,8 @@ all: main-build
 main-build: 000TestProject.elf secondary-outputs
 
 # Tool invocations
-000TestProject.elf 000TestProject.map: $(OBJS) $(USER_OBJS) C:\Users\ngoqu\SourceTree-Git\Embedded\ C\My_workspace\Embedded\ C\ course\target\000TestProject\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ngoqu\SourceTree-Git\Embedded C\My_workspace\Embedded C course\target\000TestProject\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+000TestProject.elf 000TestProject.map: $(OBJS) $(USER_OBJS) C:\Users\ngoqu\Embedded_C\My_workspace\Embedded-C-Course\target\000TestProject\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ngoqu\Embedded_C\My_workspace\Embedded-C-Course\target\000TestProject\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
